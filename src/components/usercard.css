@@ -1,0 +1,13 @@
+.usercard{
+    text-align: center;
+    background-color: rgb(234, 241, 238);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+.usercard img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

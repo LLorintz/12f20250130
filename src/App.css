@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  
+  width: 1000px; /* Kicsit nagyobb maximum szélesség */
+ 
+}
+
+.user-card-grid {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 200px minimum */
+  gap: 1.5rem;
+}
