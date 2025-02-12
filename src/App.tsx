@@ -8,8 +8,6 @@ function App() {
  
   const [users,setUsers] = useState<usercardType[]>()
 
-
-
   useEffect(() => {
     const getUsers = async () => {
       const fetchedUsers = await fetchUsers();
